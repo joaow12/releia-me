@@ -1,0 +1,67 @@
+# :artificial_satellite: Sobre o Projeto Integrador
+Projeto final do bootcamp oferecido pela Porto Seguro em parceria com a Digital House Brasil
+
+:construction::warning: Em desenvolvimento 
+## Integrantes
+
+* <a href="https://www.linkedin.com/in/alinetiburcio/" target="_blank">Aline Gabriela Tibúrcio</a>
+* <a href="https://www.linkedin.com/in/aneska/" target="_blank">Aneska Karina</a>
+* <a href="https://www.linkedin.com/in/karlinhos987/" target="_blank">Carlos R. Oliveira Junior</a>
+* <a href="https://www.linkedin.com/in/anamenici/" target="_blank">Ana Menici</a>
+* <a href="https://www.linkedin.com/in/wesley-zanelatto-53862628/" target="_blank">Wesley Zanelatto</a>
+* <a href="https://www.linkedin.com/in/rejane-ssantos/" target="_blank">Rejane Santos</a>
+* <a href="https://www.linkedin.com/in/joaow-victor/" target="_blank">João Victor</a>
+
+
+## :books: Introdução
+Com o mundo cada vez mais tecnológico, podemos utilizar de diversas alternativas para ter acesso a um livro, uma delas é de forma online, mas por outro lado, muitas pessoas não abrem mão de ter seu livro físico.
+
+Pensando no consumo consciente e na diversidade cultural aplicada no mundo do livro e das editoras, vamos conectar amantes por livros de todo o país. 
+
+Quanto mais livros seminovos e usados forem reutilizados, conseguimos possibilitar o maior acesso à cultura por um valor acessível.
+
+## :jigsaw: Problema
+O problema que esperamos resolver é diminuir o consumo de matéria-prima destinada a produção de novos livros, e por consequência, diminuir o impacto ambiental.
+
+## :dart: Objetivo
+
+Criar uma plataforma intuitiva que possibilite a compra de livros seminovos ou usados.
+
+## :loudspeaker: Justificativa
+
+Nos baseamos na ODS 12 – Consumo e Produção:
+
+12.7 – Promover práticas de compras pública sustentáveis, de acordo com as políticas e prioridades nacionais.
+
+Diante disso, percebemos a necessidade em desenvolver uma plataforma com intuito de expandir o reuso e consumo consciente dos livro
+
+## 🛠 Tecnologias
+
+As seguintes linguagens de programação foram usadas:
+
+### **Back-end**
+<br>
+<p align="left">
+  <a href="https://docs.oracle.com/javase/tutorial/extra/generics/intro.html" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="100" height="100"/>
+  </a>
+  <a href="https://docs.spring.io/spring-framework/docs/current/reference/html/" target="_blank">
+   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" alt="Spring" width="100" height="100"/>
+  </a>
+
+### **Front-end**
+
+<br>
+<p align="left">
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="100" height="100"/>
+  </a>
+   <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="Css3" width="100" height="100"/>
+  </a>
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/JavaScript" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="Javascript" width="100" height="100"/>
+  </a>
+  <a href="https://angular.io/docs" target="_blank">
+    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/angularjs/angularjs-original.svg" alt="AngularJS" width="100" height="100"/>
+  </a>
