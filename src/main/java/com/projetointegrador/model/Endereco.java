@@ -28,19 +28,15 @@ public class Endereco {
 	@NotNull
 	private int numero;
 	
-	@NotNull
 	private String complemento;
 	
 	@NotNull
-	@Size(min = 5, max = 50)
 	private String bairro;
 	
 	@NotNull
-	@Size(min = 5, max = 50)
 	private String rua;
 	
 	@NotNull
-	@Size(min = 5, max = 50)
 	private String cidade;
 	
 	@NotNull
