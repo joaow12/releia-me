@@ -79,6 +79,10 @@ public class Livros {
 	@JsonIgnoreProperties({"livros", "senha", "codf"})
 	@JoinColumn(name = "id_funcionario")
 	private Funcionario funcionario;
+	
+	@OneToMany(mappedBy = "livros", cascade = CascadeType.ALL)
+	@JsonIgnoreProperties({"cliente", "livros", "id", "comentario"})
+	private List<Avaliacao> avaliacao;
 
 	public Long getId_livros() {
 		return id_livros;
@@ -174,6 +178,14 @@ public class Livros {
 
 	public void setQtdeEstoque(int qtdeEstoque) {
 		this.qtdeEstoque = qtdeEstoque;
+	}
+
+	public List<Avaliacao> getAvaliacao() {
+		return avaliacao;
+	}
+
+	public void setAvaliacao(List<Avaliacao> avaliacao) {
+		this.avaliacao = avaliacao;
 	}
 	
 }

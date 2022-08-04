@@ -9,6 +9,7 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
@@ -50,6 +51,10 @@ public class Cliente {
 	@OneToMany(mappedBy = "cliente", cascade = CascadeType.MERGE)
 	@JsonIgnoreProperties("cliente")
 	private List<Pedido> pedido;
+	
+	@OneToOne
+	@JsonIgnoreProperties({"cliente", "livros", "comentario"})
+	private Avaliacao avaliacao;
 	
 	//CRIANDO OS CONSTRUTORES
 	
@@ -122,6 +127,14 @@ public class Cliente {
 
 	public void setPedido(List<Pedido> pedido) {
 		this.pedido = pedido;
+	}
+
+	public Avaliacao getAvaliacao() {
+		return avaliacao;
+	}
+
+	public void setAvaliacao(Avaliacao avaliacao) {
+		this.avaliacao = avaliacao;
 	}
 	
 }
